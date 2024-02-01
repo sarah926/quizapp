@@ -5,8 +5,32 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-color: black;
+}
+.name {
+  font-size: 150px;
+  color:white;
+}
+.link{
+  font-size:100px;
+  border: 2px solid white;
+  text-align: center;
+  background-color: blue;
+  margin-top: 10%;
 }
 
+.answer{
+  font-size: 50px;
+  margin-bottom: 10%;
+  border: 2px solid white;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+}
+.li{
+  list-style: none;
+}
 .description {
   display: inherit;
   justify-content: inherit;
