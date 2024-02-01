@@ -2,10 +2,7 @@
 import Image from "next/image";
 import Link from "next/link"
 import styles from "../page.module.css";
-import { sayHello } from "../layout";
 import {useState} from "react";
-import { useNavigate } from "react-router-dom";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 export default function Questions() {
   const duck = require("..//duck.png");
