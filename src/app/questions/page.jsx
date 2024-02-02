@@ -90,7 +90,7 @@ export default function Questions() {
           <h1>{startQuestions ? questionBank[questionIndex].question : null}</h1>
           <ul>{startQuestions ? questionsList : null}</ul>
           <h1>correct: {numCorrect} / {questionIndex+1}</h1>
-          <Link href="/">{endQuestions ? <h1 className={styles.answer}> Play Again</h1> : null}</Link>
+          <Link href="/home">{endQuestions ? <h1 className={styles.answer}> Play Again</h1> : null}</Link>
           <div style={{flex:1, justifyContent: 'end', alignItems: 'flex-end'}}>
           <Image src={duck}
           alt="duck"
